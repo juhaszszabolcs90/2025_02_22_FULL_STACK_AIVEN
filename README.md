@@ -36,3 +36,23 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+Adatbázis létrehozása
+```bash
+npm run db:push
+```
+
+netlify adatkapcsolat?
+https://docs.netlify.com/frameworks/sveltekit/
+```bash
+npm i -D @sveltejs/adapter-netlify
+```
+```bash
+import adapter from '@sveltejs/adapter-netlify';
+
+export default {
+  kit: {
+    adapter: adapter()
+  }
+};
+```bash

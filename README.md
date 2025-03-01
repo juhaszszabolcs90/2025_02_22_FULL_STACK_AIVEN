@@ -37,6 +37,8 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
+
+
 Adatbázis létrehozása
 ```bash
 npm run db:push
@@ -47,7 +49,8 @@ https://docs.netlify.com/frameworks/sveltekit/
 ```bash
 npm i -D @sveltejs/adapter-netlify
 ```
-```bash
+
+```js
 import adapter from '@sveltejs/adapter-netlify';
 
 export default {
@@ -55,4 +58,7 @@ export default {
     adapter: adapter()
   }
 };
-```bash
+```
+
+weboldal elérhetősége:
+https://fullstackaiven.netlify.app/demo/lucia

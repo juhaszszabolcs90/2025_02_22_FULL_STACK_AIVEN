@@ -71,3 +71,10 @@ https://cdnjs.com/libraries/semantic-ui/2.2.2
 pl gomb beállítás:
 https://semantic-ui.com/elements/button.html
 class létrehozása: class="ui green button"
+
+
+Svelte structure:
+https://svelte.dev/docs/kit/project-structure
+
+
+DB-n belül az aut.js fájlban a 38.sorban ki kell egészíteni a sessiont az új táblákkal, adatokkal, amiket át szeretnénk adni

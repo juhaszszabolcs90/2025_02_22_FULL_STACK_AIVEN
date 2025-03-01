@@ -62,3 +62,12 @@ export default {
 
 weboldal elérhetősége:
 https://fullstackaiven.netlify.app/demo/lucia
+
+
+Semantic ui:
+pl keresőbe írni: semantic ui cdnjs
+https://cdnjs.com/libraries/semantic-ui/2.2.2
+
+pl gomb beállítás:
+https://semantic-ui.com/elements/button.html
+class létrehozása: class="ui green button"

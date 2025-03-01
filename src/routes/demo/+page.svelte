@@ -2,7 +2,6 @@
 
 <script>
     let { data } = $props();
-    console.log(data);
 </script>
 
 <h1>Cica</h1>
@@ -13,6 +12,6 @@
     <div class="ui input">
         <input type="text" name="cica" />
     </div>
-    <button class="ui red button" formaction="cica">Elküld1</button>
-    <button class="ui blue button" formaction="kutya">Elküld2</button>
+    <button class="ui red button" formaction="?/cica">Elküld1</button>
+    <button class="ui blue button" formaction="?/kutya">Elküld2</button>
 </form>

@@ -13,6 +13,6 @@ export const actions = {
 
     kutya: async (event) => {
         var data = await event.request.formData();
-        console.log(data.get('kutya'));
+        console.log(data.get('cica')+1);
     }
 }

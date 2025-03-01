@@ -5,7 +5,7 @@
 </script>
 
 <h1>Cica</h1>
-<p>{data.user.username}</p>
+<p>{data.user?.username}</p>
 <p>{data.cica}</p>
 
 <form method="POST">
